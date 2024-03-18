@@ -23,4 +23,4 @@ We welcome contributions from the community! If you have any ideas, suggestions,
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-For any inquiries or discussions related to this project, feel free to contact us at jdom1824@gmail.com
+For any inquiries or discussions related to this project, feel free to contact us at jdom1824@gmail.com jdom1824@inaoe.com jdom1824@inaoep.com
