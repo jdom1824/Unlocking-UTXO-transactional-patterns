@@ -34,7 +34,7 @@ For any inquiries or discussions related to this project, feel free to contact u
 
 ## Figures generated with this repository
 
-![Merging_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png){:height="200px" width="200px"}
+<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png" alt="Merging Points" width="200"/>
 
 Transaction Size vs. Number of Outputs for the Merging Pattern. Each point represents an individual transaction.
 
