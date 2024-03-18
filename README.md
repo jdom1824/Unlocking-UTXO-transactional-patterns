@@ -20,9 +20,6 @@ To get started with this project, follow these steps:
 
 2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "Examples" folder, algorithms necessary to run the experiments described in the article are provided.
 
-![Merging Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png)
-
-
 3. Contribute: Feel free to contribute to the project by suggesting improvements, reporting issues, or implementing new transactional patterns.
 
 ## Contributing
@@ -33,3 +30,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For any inquiries or discussions related to this project, feel free to contact us at jdom1824@gmail.com jdom1824@inaoe.com jdom1824@inaoep.com
+
+
+## Chart generated with this repo
+
+![Merging_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png)
