@@ -34,11 +34,12 @@ For any inquiries or discussions related to this project, feel free to contact u
 
 ## Figures generated with this repository
 
-![Merging_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png)
+![Merging_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png){:height="200px" width="200px"}
+
 Transaction Size vs. Number of Outputs for the Merging Pattern. Each point represents an individual transaction.
 
-![Splitting_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Splitting_points.png)
+![Splitting_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Splitting_points.png){:height="200px" width="200px"}
 Transaction Size vs. Number of Outputs for the Splitting pattern. Each point represents an individual transaction.
 
-![Transfering_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Transferring_points.png)
+![Transfering_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Transferring_points.png){:height="200px" width="200px"}
 Transaction Size vs. Number of Outputs for the Transferring Pattern. Each point represents an individual transaction.
