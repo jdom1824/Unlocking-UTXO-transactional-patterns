@@ -46,3 +46,11 @@ Transaction Size vs. Number of Outputs for the Splitting pattern. Each point rep
 <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Transferring_points.png" alt="Transfering Points" width="400"/>
 
 Transaction Size vs. Number of Outputs for the Transferring Pattern. Each point represents an individual transaction.
+
+<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Histograms/Histograma_full_2.png" alt="Histogram Bitcoin" width="400"/>
+
+Visual representation of the distribution of Bitcoin transaction sizes, using data from 84,474,947 transactions.
+
+<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Histograms/transaction_histogram_E.png" alt="Histogram Bitcoin" width="400"/>
+
+Visual representation of the distribution of Ethereum transaction sizes, using data from 348,506,740 transactions.
