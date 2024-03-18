@@ -18,7 +18,10 @@ To get started with this project, follow these steps:
 
 1. Download the Database: Download the database stored in Harvard Dataverse through the following link: https://doi.org/10.7910/DVN/6V8HRL
 
-2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "examples" folder, algorithms necessary to run the experiments described in the article are provided.
+2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "Examples" folder, algorithms necessary to run the experiments described in the article are provided.
+
+![Merging Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png)
+
 
 3. Contribute: Feel free to contribute to the project by suggesting improvements, reporting issues, or implementing new transactional patterns.
 
