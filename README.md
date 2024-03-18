@@ -1,6 +1,5 @@
 # Unlocking-UTXO-transactional-patterns
 
-
 ## Introduction
 Blockchain technology ensures record-keeping by redundantly storing and verifying transactions on a distributed network of nodes. Permissionless blockchains have pushed the advancement of decentralized applications, characterized by distributed business logic, resilience against centralized failure, and data immutability.  However, one of the remaining open challenges in permissionless blockchains is the scalability on storage, i.e. the database's ability to grow sub-linearly in relation to the number of nodes. Due to the intrinsic redundancy in design, enhancing transactional throughput often compromises storage, as seen in projects such as Elastico, OmniLedger, and Rapidchain. On the other hand, solutions seeking to minimize storage on nodes, such as CUB, Jidar, SASLedger, and SE-Chain, lack transactional throughput.
 
