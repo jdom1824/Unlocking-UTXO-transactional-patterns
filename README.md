@@ -14,7 +14,14 @@ The primary objective of this paper is to delve deep into the UTXO and Account M
 
 - **Research Contribution**: This project serves as a foundational study for future research endeavors aimed at optimizing transactional models in blockchain technology.
 
+## Getting Started
+To get started with this project, follow these steps:
 
+1. Download the Database: Download the database stored in Harvard Dataverse through the following link: https://doi.org/10.7910/DVN/6V8HRL
+
+2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "examples" folder, algorithms necessary to run the experiments described in the article are provided.
+
+3. Contribute: Feel free to contribute to the project by suggesting improvements, reporting issues, or implementing new transactional patterns.
 
 ## Contributing
 We welcome contributions from the community! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request. Your contributions will help advance the research in transactional patterns for blockchain technology.
