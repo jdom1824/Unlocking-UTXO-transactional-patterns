@@ -32,6 +32,13 @@ This project is licensed under the [MIT License](LICENSE).
 For any inquiries or discussions related to this project, feel free to contact us at jdom1824@gmail.com jdom1824@inaoe.com jdom1824@inaoep.com
 
 
-## Chart generated with this repo
+## Figures generated with this repository
 
 ![Merging_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png)
+Transaction Size vs. Number of Outputs for the Merging Pattern. Each point represents an individual transaction.
+
+![Splitting_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Splitting_points.png)
+Transaction Size vs. Number of Outputs for the Splitting pattern. Each point represents an individual transaction.
+
+![Transfering_Points](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Transferring_points.png)
+Transaction Size vs. Number of Outputs for the Transferring Pattern. Each point represents an individual transaction.
