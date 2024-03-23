@@ -1,7 +1,7 @@
 # Repository for paper replication: Unlocking UTXO transactional patterns in blockchain and their impact on storage scalability.
 
-## Introduction
-Blockchain technology ensures record-keeping by redundantly storing and verifying transactions on a distributed network of nodes. Permissionless blockchains have pushed the advancement of decentralized applications, characterized by distributed business logic, resilience against centralized failure, and data immutability.  However, one of the remaining open challenges in permissionless blockchains is the scalability on storage, i.e. the database's ability to grow sub-linearly in relation to the number of nodes. Due to the intrinsic redundancy in design, enhancing transactional throughput often compromises storage, as seen in projects such as Elastico, OmniLedger, and Rapidchain. On the other hand, solutions seeking to minimize storage on nodes, such as CUB, Jidar, SASLedger, and SE-Chain, lack transactional throughput.
+## Contribution
+In this paper, we present an analysis of the storage impact of transactional models in Bitcoin and Ethereum. Subsequently, we model the Unspent Transaction Output (UTXO) as a graph, offering granular insight into the status of each transaction. This abstraction allows us to identify transactional patterns for Bitcoin and Ethereum transactions. We provide formal evidence to show that the UTXO model is more storage-expensive than the Account model. Finally, we characterize the transactional models, and based on this characterization, we quantify the effect on storage growth for the transactional Account model and the UTXO model.
 
 ## Objective
 The primary objective of this paper is to delve deep into the UTXO and Account Models, identifying their transactional patterns. By understanding these models thoroughly, we aim to pave the way for future research to enhance storage scalability in distributed environments. Our ultimate goal is to contribute to the advancement of blockchain technology by unlocking more efficient transactional patterns.
@@ -11,12 +11,10 @@ The primary objective of this paper is to delve deep into the UTXO and Account M
 
 - **Scalability Focus**: By addressing the limitations of current transactional patterns, we aim to facilitate the scalability of storage in distributed environments, enabling blockchain technology to handle larger transaction volumes effectively.
 
-- **Research Contribution**: This project serves as a foundational study for future research endeavors aimed at optimizing transactional models in blockchain technology.
-
-## Getting Started
+## Getting Started Replicating Experiments
 To get started with this project, follow these steps:
 
-1. Download the Database: Download the database stored in Harvard Dataverse through the following link: https://doi.org/10.7910/DVN/6V8HRL
+1. Download the database stored in [Harvard Dataverse](url:https://dataverse.harvard.edu/) through the following doi: https://doi.org/10.7910/DVN/6V8HRL
 
 2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "Examples" folder, algorithms necessary to run the experiments described in the article are provided.
 
