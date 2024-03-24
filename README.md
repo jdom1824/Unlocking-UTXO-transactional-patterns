@@ -13,7 +13,8 @@ Considering that Bitcoin nodes manage a constantly growing database, the purpose
 
 - ***Software***: we illustrate the methodology used to store the data in Figure 1, for which we used Bitcoin Core version 0.22 to synchronize a full Bitcoin node until July 4, 2023, and then extracted the data for further processing using BlockSci 0.7. 0. After obtaining the data, we filter it based on transaction patterns using Python3 and C++.
 
-<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Images/Framework.png" alt="Merging Points" width="400"/>
+<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Images/Framework.png" alt="Merging Points" width="400" style="background-color: white;"/>
+
 
 ## Getting Started Replicating Experiments
 To get started with this project, follow these steps:
