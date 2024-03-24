@@ -11,6 +11,8 @@ Considering that Bitcoin nodes manage a constantly growing database, the purpose
 
 - ***Computer Description***: The computer used in the experiments runs the Ubuntu 18.04 operating system and is equipped with an XEON processor with 92 virtual cores running at 2.4 GHz each. The computer has a total of 128 GB of dual-channel DDR4 RAM running at 3200 MHz. For data storage, a 2TB solid-state drive (SSD) was integrated to provide fast read/write speeds for easy access to the files and programs needed to run the experiments.
 
+- ***Software***: We used version 0.22 of Bitcoin Core to synchronize a complete Bitcoin node back to July 4, 2023, and then extracted the data for further processing using BlockSci 0.7.0. After obtaining the data, we filtered it according to transaction patterns using Python3 and C++.
+
 ## Getting Started Replicating Experiments
 To get started with this project, follow these steps:
 
