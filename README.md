@@ -4,7 +4,7 @@
 In this paper, we present an analysis of the storage impact of transactional models in Bitcoin and Ethereum. Subsequently, we model the Unspent Transaction Output (UTXO) as a graph, offering granular insight into the status of each transaction. This abstraction allows us to identify transactional patterns for Bitcoin and Ethereum transactions. We provide formal evidence to show that the UTXO model is more storage-expensive than the Account model. Finally, we characterize the transactional models, and based on this characterization, we quantify the effect on storage growth for the transactional Account model and the UTXO model.
 
 ## Objective
-The primary objective of this paper is to delve deep into the UTXO and Account Models, identifying their transactional patterns. By understanding these models thoroughly, we aim to pave the way for future research to enhance storage scalability in distributed environments. Our ultimate goal is to contribute to the advancement of blockchain technology by unlocking more efficient transactional patterns.
+The main contribution of this article is to propose a generalization of the UTXO and account models, through the introduction of transactional patterns. Understanding these models thoroughly lays the groundwork for future research to enhance the scalability of storage in permissionless blockchain environments.
 
 ## Key Features
 - **Granular Transactional Patterns**: We introduce finer transactional patterns compared to existing solutions, allowing for more flexibility and efficiency in transaction processing.
