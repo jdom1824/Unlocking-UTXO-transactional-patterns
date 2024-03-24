@@ -7,14 +7,14 @@ In this paper, we present an analysis of the storage impact of transactional mod
 The primary objective of this paper is to delve deep into the UTXO and Account Models, identifying their transactional patterns. By understanding these models thoroughly, we aim to pave the way for future research to enhance storage scalability in distributed environments. Our ultimate goal is to contribute to the advancement of blockchain technology by unlocking more efficient transactional patterns.
 
 ## Key Features
-- **Granular Transactional Patterns**: We introduce finer transactional patterns compared to existing solutions, allowing for more flexibility and efficiency in transaction processing.
+- **Granular Transactional Patterns**: Unlocking of the transactional patterns of the UTXO model by enabling sufficient patterns to represent any transactions in Bitcoin and Ethereum.
 
 - **Scalability Focus**: By addressing the limitations of current transactional patterns, we aim to facilitate the scalability of storage in distributed environments, enabling blockchain technology to handle larger transaction volumes effectively.
 
 ## Getting Started Replicating Experiments
 To get started with this project, follow these steps:
 
-1. Download the database stored in [Harvard Dataverse](url:https://dataverse.harvard.edu/) through the following doi: https://doi.org/10.7910/DVN/6V8HRL
+1. Download the database stored in Harvard Dataverse through the following doi: https://doi.org/10.7910/DVN/6V8HRL
 
 2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "Examples" folder, algorithms necessary to run the experiments described in the article are provided.
 
