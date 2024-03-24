@@ -7,7 +7,7 @@ In this paper, we present an analysis of the storage impact of transactional mod
 This repository aims to provide resources related to the methods used in the experiments described in the article. In addition to algorithms, software, graphics, and databases, it also includes other relevant resources that may be useful for researchers and professionals interested in exploring and reproducing the study's results.
 
 ## Dataverse Methodology
-Considering that Bitcoin nodes manage a constantly growing database, the purpose of describing this methodology is to enable future endeavors wishing to utilize this database to update the latest blocks without to start all the work from scratch.
+Considering that Bitcoin nodes manage a constantly growing database, the purpose of describing this methodology is to enable future work that uses this database to update the latest blocks without starting all the work from scratch.
 
 - **Scalability Focus**: By addressing the limitations of current transactional patterns, we aim to facilitate the scalability of storage in distributed environments, enabling blockchain technology to handle larger transaction volumes effectively.
 
