@@ -6,8 +6,8 @@ In this paper, we present an analysis of the storage impact of transactional mod
 ## Objective
 This repository aims to provide resources related to the methods used in the experiments described in the article. In addition to algorithms, software, graphics, and databases, it also includes other relevant resources that may be useful for researchers and professionals interested in exploring and reproducing the study's results.
 
-## Key Features
-- **Granular Transactional Patterns**: We introduce finer transactional patterns compared to existing solutions, allowing for more flexibility and efficiency in transaction processing.
+## Dataverse Methodology
+Considering that Bitcoin nodes manage a constantly growing database, the purpose of describing this methodology is to enable future endeavors wishing to utilize this database to update the latest blocks without to start all the work from scratch.
 
 - **Scalability Focus**: By addressing the limitations of current transactional patterns, we aim to facilitate the scalability of storage in distributed environments, enabling blockchain technology to handle larger transaction volumes effectively.
 
