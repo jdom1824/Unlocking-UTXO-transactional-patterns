@@ -47,6 +47,22 @@ To replicate these experiments, Python 3 or higher is required, along with the s
 
 The original source code for the algorithms can be found [here](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/tree/main/Examples/Histograms).
 
+**Results**
+
+<p align="center">
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Histograms/Histograma_full_2.png" alt="Histogram Bitcoin" width="400"/>
+  <br>
+  <em>Visual representation of the distribution of Bitcoin transaction sizes, using data from 84,474,947 transactions.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Histograms/transaction_histogram_E.png" alt="Histogram Ethereum" width="400"/>
+  <br>
+  <em>Visual representation of the distribution of Ethereum transaction sizes, using data from 348,506,740 transactions.</em>
+</p>
+
+
+
 ## Contributing
 We welcome contributions from the community! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request. Your contributions will help advance the research in transactional patterns for blockchain technology.
 
