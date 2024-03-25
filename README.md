@@ -9,17 +9,17 @@ This repository aims to provide resources related to the methods used in the exp
 ## Dataverse Collection
 Considering that Bitcoin nodes manage a constantly growing database, the purpose of describing this methodology is to enable future work that uses this database to update the latest blocks without starting all the work from scratch.
 
-- ***Computer Description***: The computer used in the experiments runs the Ubuntu 18.04 operating system and is equipped with an XEON processor with 92 virtual cores running at 2.4 GHz each. The computer has a total of 128 GB of dual-channel DDR4 RAM running at 3200 MHz. For data storage, a 2TB solid-state drive (SSD) was integrated to provide fast read/write speeds for easy access to the files and programs needed to run the experiments.
+- ***Computer Description***: the computer used in the experiments runs the Ubuntu 18.04 operating system and is equipped with an XEON processor with 92 virtual cores running at 2.4 GHz each. The computer has a total of 128 GB of dual-channel DDR4 RAM running at 3200 MHz. For data storage, a 2TB solid-state drive (SSD) was integrated to provide fast read/write speeds for easy access to the files and programs needed to run the experiments.
 
 - ***Software***: we illustrate the methodology used to store the data in Figure 1, for which we used Bitcoin Core version 0.22 to synchronize a full Bitcoin node until July 4, 2023, and then extracted the data for further processing using BlockSci 0.7. 0. After obtaining the data, we filter it based on transaction patterns using Python3 and C++.
   
 <p align="center">
   <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Images/Framework.jpeg" alt="Benchmark" width="1000"/>
   <br>
-  <em>Fig 1. Experimental framework for analyzing transactional patterns in the UTXO Model.</em>
+  <em>Fig 1. Experimental framework for analyzing transactional patterns in the UTXO Model.
 </p>
 
-- ***Results***: <p>The first dataverse that offers a detailed number of inputs and outputs generated in Bitcoin, from the genesis block to block 831,732. It includes various attributes such as <em>TotalSize</em>, <em>Size</em>, <em>Inputs</em>, <em>Outputs</em>, <em>Block</em>, and <em>VinTxIds</em>, providing comprehensive insights into the characteristics and components of individual transactions within the Bitcoin blockchain network.</p>
+- ***Results***: the first dataverse that offers a detailed number of inputs and outputs generated in Bitcoin, from the genesis block to block 831,732. It includes various attributes such as TotalSize, Size, Inputs, Outputs, Block, and VinTxIds, providing comprehensive insights into the characteristics and components of individual transactions within the Bitcoin blockchain network.
 
 --> Download the database stored in [Harvard Dataverse](url:https://dataverse.harvard.edu/) through the following doi: https://doi.org/10.7910/DVN/6V8HRL <--
 
