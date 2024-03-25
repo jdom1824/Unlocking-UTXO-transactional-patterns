@@ -43,7 +43,7 @@ To replicate these experiments, Python 3 or higher is required, along with the s
 
 **Source code**
 
-The original source code for the algorithms can be found [here] (https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/tree/main/Examples/Histograms).
+The original source code for the algorithms can be found [here](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/tree/main/Examples/Histograms).
 
 
 2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "Examples" folder, algorithms necessary to run the experiments described in the article are provided.
