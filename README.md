@@ -75,6 +75,30 @@ The original source code for the algorithms can be found [here](https://github.c
 
 **Results**
 
+<p align="center">
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/pattern_distribution_pie.png" alt="Histogram Bitcoin" width="400"/>
+  <br>
+  <em>Fig 4. Proportional distribution of Splitting, Merging, and Transferring Patterns in the Dataset.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/pattern_distribution_pie.png" alt="Histogram Bitcoin" width="400"/>
+  <br>
+  <em>Fig 5. Transaction Size vs. Number of Outputs for the Splitting pattern. Each point represents an individual transaction.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/pattern_distribution_pie.png" alt="Histogram Bitcoin" width="400"/>
+  <br>
+  <em>Fig 6. Transaction Size vs. Number of Outputs for the Transferring Pattern. Each point represents an individual transaction.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/pattern_distribution_pie.png" alt="Histogram Bitcoin" width="400"/>
+  <br>
+  <em>Fig 7. Transaction Size vs. Number of Outputs for the Merging Pattern. Each point represents an individual transaction.</em>
+</p>
+
 
 
 ## Contributing
@@ -86,26 +110,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 For any inquiries or discussions related to this project, feel free to contact us at jdom1824@gmail.com jdom1824@inaoe.com jdom1824@inaoep.com
 
-
-## Figures generated with this repository
-
-<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Merging_points.png" alt="Merging Points" width="400"/>
-
-Transaction Size vs. Number of Outputs for the Merging Pattern. Each point represents an individual transaction.
-
-
-<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Splitting_points.png" alt="Splitting Points" width="400"/>
-
-Transaction Size vs. Number of Outputs for the Splitting pattern. Each point represents an individual transaction.
-
-<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/raw/main/Examples/Points/Transferring_points.png" alt="Transfering Points" width="400"/>
-
-Transaction Size vs. Number of Outputs for the Transferring Pattern. Each point represents an individual transaction.
-
-<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Histograms/Histograma_full_2.png" alt="Histogram Bitcoin" width="400"/>
-
-Visual representation of the distribution of Bitcoin transaction sizes, using data from 84,474,947 transactions.
-
-<img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Histograms/transaction_histogram_E.png" alt="Histogram Bitcoin" width="400"/>
-
-Visual representation of the distribution of Ethereum transaction sizes, using data from 348,506,740 transactions.
