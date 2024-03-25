@@ -82,24 +82,22 @@ The original source code for the algorithms can be found [here](https://github.c
 </p>
 
 <p align="center">
-  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/pattern_distribution_pie.png" alt="Histogram Bitcoin" width="400"/>
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Points/Splitting_points.png" alt="Histogram Bitcoin" width="400"/>
   <br>
   <em>Fig 5. Transaction Size vs. Number of Outputs for the Splitting pattern. Each point represents an individual transaction.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/pattern_distribution_pie.png" alt="Histogram Bitcoin" width="400"/>
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Points/Transferring_points.png" alt="Histogram Bitcoin" width="400"/>
   <br>
   <em>Fig 6. Transaction Size vs. Number of Outputs for the Transferring Pattern. Each point represents an individual transaction.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/pattern_distribution_pie.png" alt="Histogram Bitcoin" width="400"/>
+  <img src="https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Points/Merging_points.png" alt="Histogram Bitcoin" width="400"/>
   <br>
   <em>Fig 7. Transaction Size vs. Number of Outputs for the Merging Pattern. Each point represents an individual transaction.</em>
 </p>
-
-
 
 ## Contributing
 We welcome contributions from the community! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request. Your contributions will help advance the research in transactional patterns for blockchain technology.
