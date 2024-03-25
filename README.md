@@ -35,7 +35,7 @@ Considering that Bitcoin nodes manage a constantly growing database, the purpose
 
 ## Replicating Experiments
 
-***Transaction Sizes in Bitcoin and Ethereum***
+# 1. Transaction Sizes in Bitcoin and Ethereum
 
 Our initial experiments provide preliminary evidence that our hypothesis regarding transaction storage efficiency in Ethereum compared to Bitcoin is true. To reach this conclusion, we conducted a comparative analysis of the bitcoin and Ethereum blockchains.
 
@@ -61,7 +61,7 @@ The original source code for the algorithms can be found [here](https://github.c
   <em>Fig 3. Visual representation of the distribution of Ethereum transaction sizes, using data from 348,506,740 transactions.</em>
 </p>
 
-***Analysis on the Storage Cost in Transactional Patterns of the UTXO Model***
+# 2. Analysis on the Storage Cost in Transactional Patterns of the UTXO Model
 
 After defining the 'spent by' relation and the transactional patterns along with their metrics, we analyzed the storage requirements for each of the transferring, merging, and splitting patterns.
 
@@ -74,6 +74,8 @@ To replicate these experiments, Python 3 or higher is required, along with the P
 The original source code for the algorithms can be found [here](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Points/points.py) and [here](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/Torta_G.py).
 
 **Results**
+
+
 
 ## Contributing
 We welcome contributions from the community! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request. Your contributions will help advance the research in transactional patterns for blockchain technology.
