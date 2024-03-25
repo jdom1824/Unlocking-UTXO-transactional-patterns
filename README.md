@@ -33,12 +33,18 @@ Fig 1. Experimental framework for analyzing transactional patterns in the UTXO M
 6. Block:Identifier for the block containing the transaction.
 7. VinTxIds: Array of previous transactions involved in the current transaction (Input Transaction IDs).
 
+## Replicating Experiments
 
+Our initial experiments provide preliminary evidence that our hypothesis regarding transaction storage efficiency in Ethereum compared to Bitcoin is true. To reach this conclusion, we conducted a comparative analysis of the bitcoin and Ethereum blockchains.
 
-## Getting Started Replicating Experiments
-To get started with this project, follow these steps:
+**Requirements and Setup**
 
-1. Download the database stored in [Harvard Dataverse](url:https://dataverse.harvard.edu/) through the following doi: https://doi.org/10.7910/DVN/6V8HRL
+To replicate these experiments, Python 3 or higher is required, along with the specific requirements of each algorithm. For example, to run the transaction memory comparison algorithms in Bitcoin, you need to download the database and load each of its parts using the Pandas library. For Ethereum, the necessary data can be obtained from Etherscan.io.
+
+**Source code**
+
+The original source code for the algorithms can be found [here] (https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/tree/main/Examples/Histograms).
+
 
 2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "Examples" folder, algorithms necessary to run the experiments described in the article are provided.
 
