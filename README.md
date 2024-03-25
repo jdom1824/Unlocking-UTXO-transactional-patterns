@@ -21,6 +21,8 @@ Fig 1. Experimental framework for analyzing transactional patterns in the UTXO M
 
 - ***Results***: <p>The first dataverse that offers a detailed number of inputs and outputs generated in Bitcoin, from the genesis block to block 831,732. It includes various attributes such as <em>TotalSize</em>, <em>Size</em>, <em>Inputs</em>, <em>Outputs</em>, <em>Block</em>, and <em>VinTxIds</em>, providing comprehensive insights into the characteristics and components of individual transactions within the Bitcoin blockchain network.</p>
 
+--> Download the database stored in [Harvard Dataverse](url:https://dataverse.harvard.edu/) through the following doi: https://doi.org/10.7910/DVN/6V8HRL <--
+
 **Attributes**:
 
 1. Transaction: Identifier for the transaction. 
