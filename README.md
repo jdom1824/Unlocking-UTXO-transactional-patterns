@@ -19,8 +19,6 @@ Considering that Bitcoin nodes manage a constantly growing database, the purpose
   <em>Fig 1. Experimental framework for analyzing transactional patterns in the UTXO Model.</em>
 </p>
 
-
-
 - ***Results***: <p>The first dataverse that offers a detailed number of inputs and outputs generated in Bitcoin, from the genesis block to block 831,732. It includes various attributes such as <em>TotalSize</em>, <em>Size</em>, <em>Inputs</em>, <em>Outputs</em>, <em>Block</em>, and <em>VinTxIds</em>, providing comprehensive insights into the characteristics and components of individual transactions within the Bitcoin blockchain network.</p>
 
 --> Download the database stored in [Harvard Dataverse](url:https://dataverse.harvard.edu/) through the following doi: https://doi.org/10.7910/DVN/6V8HRL <--
@@ -43,7 +41,7 @@ Our initial experiments provide preliminary evidence that our hypothesis regardi
 
 **Requirements and Setup**
 
-To replicate these experiments, Python 3 or higher is required, along with the specific requirements of each algorithm. For example, to run the transaction memory comparison algorithms in Bitcoin, you need to download the database and load each of its parts using the Pandas library. For Ethereum, the necessary data can be obtained from Etherscan.io.
+Replicating these experiments requires Python 3 or higher, along with the specific requirements of each algorithm. For example, to run the transaction memory comparison algorithms in Bitcoin, you need to download the database and load each of its parts using the Pandas and Matplotlib libraries. For Ethereum, the necessary data can be obtained from Etherscan.io.
 
 **Source code**
 
@@ -63,7 +61,19 @@ The original source code for the algorithms can be found [here](https://github.c
   <em>Fig 3. Visual representation of the distribution of Ethereum transaction sizes, using data from 348,506,740 transactions.</em>
 </p>
 
+***Analysis on the Storage Cost in Transactional Patterns of the UTXO Model***
 
+After defining the 'spent by' relation and the transactional patterns along with their metrics, we analyzed the storage requirements for each of the transferring, merging, and splitting patterns.
+
+**Requirements and Setup**
+
+To replicate these experiments, Python 3 or higher is required, along with the Pandas, Numpy, Collections, and Matplotlib libraries. Additionally, access to the Harvard database parts is necessary.
+
+**Source code**
+
+The original source code for the algorithms can be found [here](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Points/points.py) and [here](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/blob/main/Examples/Torta/Torta_G.py).
+
+**Results**
 
 ## Contributing
 We welcome contributions from the community! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request. Your contributions will help advance the research in transactional patterns for blockchain technology.
