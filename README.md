@@ -35,6 +35,8 @@ Fig 1. Experimental framework for analyzing transactional patterns in the UTXO M
 
 ## Replicating Experiments
 
+***Transaction Sizes in Bitcoin and Ethereum***
+
 Our initial experiments provide preliminary evidence that our hypothesis regarding transaction storage efficiency in Ethereum compared to Bitcoin is true. To reach this conclusion, we conducted a comparative analysis of the bitcoin and Ethereum blockchains.
 
 **Requirements and Setup**
@@ -44,11 +46,6 @@ To replicate these experiments, Python 3 or higher is required, along with the s
 **Source code**
 
 The original source code for the algorithms can be found [here](https://github.com/jdom1824/Unlocking-UTXO-transactional-patterns/tree/main/Examples/Histograms).
-
-
-2. Explore the Code: Take a look at the proposed transactional patterns and their implementations. In the "Examples" folder, algorithms necessary to run the experiments described in the article are provided.
-
-3. Contribute: Feel free to contribute to the project by suggesting improvements, reporting issues, or implementing new transactional patterns.
 
 ## Contributing
 We welcome contributions from the community! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request. Your contributions will help advance the research in transactional patterns for blockchain technology.
