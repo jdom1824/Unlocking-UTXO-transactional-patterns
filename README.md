@@ -67,7 +67,7 @@ After defining the 'spent by' relation and the transactional patterns along with
 
 **Requirements and Setup**
 
-To replicate these experiments, Python 3 or higher is required, along with the Pandas, Numpy, Collections, and Matplotlib libraries. Additionally, access to the Harvard database parts is necessary.
+To replicate these experiments, Python 3 or higher is required, along with the Pandas, Numpy, Collections, and Matplotlib libraries. Additionally, access to the Harvard dataverse parts is necessary.
 
 **Source code**
 
