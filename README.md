@@ -9,7 +9,7 @@ This repository aims to provide resources related to the methods used in the exp
 ## Dataverse Collection
 Considering that Bitcoin nodes manage a constantly growing database, the purpose of describing this methodology is to enable future work that uses this database to update the latest blocks without starting all the work from scratch.
 
-- ***Computer Description***: the computer used in the experiments runs the Ubuntu 18.04 operating system and is equipped with an XEON processor with 92 virtual cores running at 2.4 GHz each. The computer has a total of 128 GB of dual-channel DDR4 RAM running at 3200 MHz. For data storage, a 2TB solid-state drive (SSD) was integrated to provide fast read/write speeds for easy access to the files and programs needed to run the experiments.
+- ***Experimental Setup***: the computer used in the experiments runs the Ubuntu 18.04 operating system and is equipped with an XEON processor with 92 virtual cores running at 2.4 GHz each. The computer has a total of 128 GB of dual-channel DDR4 RAM running at 3200 MHz. For data storage, a 2TB solid-state drive (SSD) was integrated to provide fast read/write speeds for easy access to the files and programs needed to run the experiments.
 
 - ***Software***: we illustrate the methodology used to store the data in Figure 1, for which we used Bitcoin Core version 0.22 to synchronize a full Bitcoin node until July 4, 2023, and then extracted the data for further processing using BlockSci 0.7. 0. After obtaining the data, we filter it based on transaction patterns using Python3 and C++.
   
