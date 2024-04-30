@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 
 # Datos
@@ -18,7 +19,7 @@ df['Nodes'] = df['Nodes'].astype(str) + '_' + df.index.astype(str)
 # Calcular la tasa de crecimiento y marcar el crecimiento exponencial
 df['Growth'] = df['Storage'].pct_change()
 df['Exponential'] = False
-df.loc[len(df)-8:, 'Exponential'] = True  # Marcar las primeras 8 barras como crecimiento exponencial
+df.loc[len(df)-8:, 'Exponential'] = True  # Marcar las últimas 8 barras como crecimiento exponencial
 
 # Crear figura y ejes
 fig, ax = plt.subplots(figsize=(12, 6))
@@ -27,9 +28,6 @@ fig, ax = plt.subplots(figsize=(12, 6))
 bar_width = 0.4
 spacing = 0.1
 
-# Calcular el desplazamiento para centrar las barras
-offset = -(bar_width + spacing) * (len(df) - 1) / 2
-
 # Generar gráfico de barras con colores personalizados
 for i, (_, row) in enumerate(df.iterrows()):
     if row['Exponential']:
@@ -37,7 +35,11 @@ for i, (_, row) in enumerate(df.iterrows()):
     else:
         color = 'dodgerblue'
     ax.bar(i, row['Storage'], width=bar_width, color=color, edgecolor='black', linewidth=0.7, align='center')
-    offset += bar_width + spacing
+
+start_index = 9  # Inicia en la séptima barra
+end_index = 17   # Termina en la decimosexta barra
+ax.plot(range(start_index, end_index), df['Storage'][start_index:end_index], color='red', linewidth=2, marker='o')
+
 
 # Configurar título y etiquetas
 ax.set_title('Bar Chart of Nodes vs Storage')
